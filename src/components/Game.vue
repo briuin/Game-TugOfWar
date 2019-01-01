@@ -18,7 +18,7 @@
       <div :class="$style.times">{{player.hitTimes}}</div>
       <div :class="$style.name">{{player.name}}</div>
     </div>
-    <h3>Click the blue area, 100 to Win!</h3>
+    <h3>Click the blue area, {{maxHit}} to Win!</h3>
   </div>
 </template>
 
@@ -35,7 +35,7 @@ export default class HelloWorld extends Vue {
     public player: Player = new Player();
     public opponent: Player = new Player();
     public connection!: HubConnection;
-    public maxHit = 100;
+    public maxHit = 30;
     public resultMessage = '';
 
     public hit() {
