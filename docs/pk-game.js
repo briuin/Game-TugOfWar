@@ -1834,12 +1834,12 @@ function isPromise(obj) {
     return obj instanceof Promise || (obj && typeof obj.then === 'function');
 }
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"4614117c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Game.vue?vue&type=template&id=a4a3076c&
-var Gamevue_type_template_id_a4a3076c_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:_vm.$style.game_area},[(_vm.resultMessage)?_c('div',[_c('div',{class:_vm.$style.modal_overlay},[_c('div',{class:_vm.$style.modal_container},[_c('div',{class:_vm.$style.modal_content},[_c('div',{class:_vm.$style.result_text},[_vm._v(_vm._s(_vm.resultMessage))]),_c('button',{class:_vm.$style.join_next,attrs:{"type":"button"},on:{"click":_vm.nextRound}},[_vm._v("Join Next PK")])])])])]):_vm._e(),_c('div',{class:_vm.$style.hit_area},[_c('div',{class:_vm.$style.name},[_vm._v(_vm._s(_vm.opponent.name))]),_c('div',{class:_vm.$style.times},[_vm._v(_vm._s(_vm.opponent.hitTimes))])]),_c('div',{class:[_vm.$style.hit_area, _vm.$style.player],on:{"click":_vm.hit}},[_c('div',{class:_vm.$style.times},[_vm._v(_vm._s(_vm.player.hitTimes))]),_c('div',{class:_vm.$style.name},[_vm._v(_vm._s(_vm.player.name))])]),_c('h3',[_vm._v("Click the blue area, 100 to Win!")])])}
-var Gamevue_type_template_id_a4a3076c_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"4614117c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Game.vue?vue&type=template&id=47ce2bde&
+var Gamevue_type_template_id_47ce2bde_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:_vm.$style.game_area},[(_vm.resultMessage)?_c('div',[_c('div',{class:_vm.$style.modal_overlay},[_c('div',{class:_vm.$style.modal_container},[_c('div',{class:_vm.$style.modal_content},[_c('div',{class:_vm.$style.result_text},[_vm._v(_vm._s(_vm.resultMessage))]),_c('button',{class:_vm.$style.join_next,attrs:{"type":"button"},on:{"click":_vm.nextRound}},[_vm._v("Join Next PK")])])])])]):_vm._e(),_c('div',{class:_vm.$style.hit_area},[_c('div',{class:_vm.$style.name},[_vm._v(_vm._s(_vm.opponent.name))]),_c('div',{class:_vm.$style.times},[_vm._v(_vm._s(_vm.opponent.hitTimes))])]),_c('div',{class:[_vm.$style.hit_area, _vm.$style.player],on:{"click":_vm.hit}},[_c('div',{class:_vm.$style.times},[_vm._v(_vm._s(_vm.player.hitTimes))]),_c('div',{class:_vm.$style.name},[_vm._v(_vm._s(_vm.player.name))])]),_c('h3',[_vm._v("Click the blue area, "+_vm._s(_vm.maxHit)+" to Win!")])])}
+var Gamevue_type_template_id_47ce2bde_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/Game.vue?vue&type=template&id=a4a3076c&
+// CONCATENATED MODULE: ./src/components/Game.vue?vue&type=template&id=47ce2bde&
 
 // EXTERNAL MODULE: ./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptor.js
 var get_own_property_descriptor = __webpack_require__("268f");
@@ -4059,7 +4059,7 @@ var Gamevue_type_script_lang_ts_HelloWorld = class HelloWorld extends external_V
     super(...arguments);
     this.player = new Player();
     this.opponent = new Player();
-    this.maxHit = 100;
+    this.maxHit = 30;
     this.resultMessage = '';
   }
 
@@ -4138,8 +4138,8 @@ this["$style"] = (style0.locals || style0)
 
 var component = normalizeComponent(
   components_Gamevue_type_script_lang_ts_,
-  Gamevue_type_template_id_a4a3076c_render,
-  Gamevue_type_template_id_a4a3076c_staticRenderFns,
+  Gamevue_type_template_id_47ce2bde_render,
+  Gamevue_type_template_id_47ce2bde_staticRenderFns,
   false,
   injectStyles,
   null,
